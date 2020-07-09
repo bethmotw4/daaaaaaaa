@@ -1,7 +1,14 @@
 package com.example.demo;
 
 public class add {
-	private int add = 0;
-	private String  daa = "daaaaaaaaa";
-	private String message = "クソみたいなプロジェクトとか言わないで";
+
+	public static void main(String[] args) {
+		int speed = 40;
+		
+		for (int i = 0;i < 100;i++) {
+			System.out.println("くそコード");
+		}
+		
+		System.out.println("現在の速度: " + speed);
+	}
 }
